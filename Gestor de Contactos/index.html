@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Contatos</h1>
+        <div id="contacts"></div>
+        <button id="addContactBtn">Adicionar Contato</button>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar Contato</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="text" id="phone" placeholder="Telefone" required>
+                <input type="submit" value="Salvar">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
